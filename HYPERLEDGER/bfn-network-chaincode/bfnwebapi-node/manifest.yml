@@ -1,0 +1,13 @@
+applications:
+- buildpack: sdk-for-nodejs
+  command: npm start
+  domain: mybluemix.net
+  host: bfnwebapi-node
+  instances: 1
+  memory: 256M
+  name: BFNWebAPINode
+  services:
+  - BFN2019-Cloudant
+  timeout: 180
+domain: mybluemix.net
+host: bfnwebapi-node

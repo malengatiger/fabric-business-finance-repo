@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>970597890524-49urruh2usbjrk3m6vmi2oclrodubkqi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.970597890524-49urruh2usbjrk3m6vmi2oclrodubkqi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC2vjpppXZR9UpFhCd1LWnZv8bk1bwO_qE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>970597890524</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.oneconnect.monitor</string>
+	<key>PROJECT_ID</key>
+	<string>business-finance-dev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>business-finance-dev.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:970597890524:ios:a43e21556e12ca19</string>
+	<key>DATABASE_URL</key>
+	<string>https://business-finance-dev.firebaseio.com</string>
+</dict>
+</plist>

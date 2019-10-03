@@ -1,0 +1,62 @@
+name: crudderv3
+description: A new Flutter project.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  businesslibrary:
+        path: /Users/mac/Documents/GitHub/business-finance-mobile-apps/businesslibrary
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+#  test:
+#  build_runner:
+#  jaguar_serializer_cli:
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/fincash.jpg
+    - assets/fin3.jpeg
+    - assets/sms1.mp3
+    - assets/sms2.mp3
+    - assets/sms3.mp3
+    - assets/sms4.mp3
+    - assets/chime.mp3
+    - assets/1.png
+    - assets/2.png
+    - assets/3.png
+    - assets/computers.png
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+        - asset: fonts/Raleway-Italic.ttf
+        - asset: fonts/Raleway-ExtraBold.ttf
+        - asset: fonts/Raleway-Bold.ttf
+    - family: RobotoMono
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+    - family: Rubik
+      fonts:
+        - asset: fonts/Rubik-Regular.ttf
+        - asset: fonts/Rubik-Bold.ttf
+        - asset: fonts/Rubik-Black.ttf
+        - asset: fonts/Rubik-Light.ttf
+        - asset: fonts/Rubik-Italic.ttf
+        - asset: fonts/Rubik-Medium.ttf

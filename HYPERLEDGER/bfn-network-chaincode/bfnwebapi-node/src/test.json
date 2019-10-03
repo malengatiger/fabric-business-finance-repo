@@ -1,0 +1,82 @@
+[
+  {
+    "country": "ZA",
+    "dateRegistered": "2019-02-24T04:36:24.924Z",
+    "docType": "com.oneconnect.biz.Customer",
+    "email": "info@britsalumcom",
+    "name": "Brits Aluminium Ltd",
+    "participantId": "be3211c0-37ed-11e9-a1c2-ed28e2dc656e"
+  },
+  {
+    "country": "ZA",
+    "dateRegistered": "2019-02-23T15:41:21.283Z",
+    "docType": "com.oneconnect.biz.Customer",
+    "email": "info@constructors.com",
+    "name": "BigDaddy Construction Ltd",
+    "participantId": "77dd9530-3781-11e9-ae37-4b6b2d6eba2f"
+  },
+  {
+    "country": "ZA",
+    "dateRegistered": "2019-02-24T04:06:20.832Z",
+    "docType": "com.oneconnect.biz.Customer",
+    "email": "info@firstnational.com",
+    "name": "National Bank First.",
+    "participantId": "8adf52f0-37e9-11e9-a1c2-ed28e2dc656e"
+  },
+  {
+    "country": "ZA",
+    "dateRegistered": "2019-02-24T03:59:07.547Z",
+    "docType": "com.oneconnect.biz.Customer",
+    "email": "info@fitchfarml.com",
+    "name": "Fitch Supermarkets Pty Ltd.",
+    "participantId": "889d6eb0-37e8-11e9-a1c2-ed28e2dc656e"
+  },
+  {
+    "country": "ZA",
+    "dateRegistered": "2019-02-23T15:55:00.902Z",
+    "docType": "com.oneconnect.biz.Customer",
+    "email": "info@heitacon.com",
+    "name": "Heita Maintenance Pty  Ltd",
+    "participantId": "60658460-3783-11e9-ae37-4b6b2d6eba2f"
+  },
+  {
+    "country": "ZA",
+    "dateRegistered": "2019-02-23T00:46:19.575Z",
+    "docType": "com.oneconnect.biz.Customer",
+    "email": "info@mastercon.com",
+    "name": "Global Supermarkets Ltd",
+    "participantId": "6f273c70-3704-11e9-82ea-7f18f53d996a"
+  },
+  {
+    "country": "ZA",
+    "dateRegistered": "2019-02-23T16:32:53.786Z",
+    "docType": "com.oneconnect.biz.Customer",
+    "email": "info@mathoncon.com",
+    "name": "Mathonsi Maintenance Pty  Ltd",
+    "participantId": "ab2417a0-3788-11e9-ae37-4b6b2d6eba2f"
+  },
+  {
+    "country": "ZA",
+    "dateRegistered": "2019-02-24T04:40:21.050Z",
+    "docType": "com.oneconnect.biz.Customer",
+    "email": "info@rustbgalumcom",
+    "name": "Rustenburg Aluminium Ltd",
+    "participantId": "4af009a0-37ee-11e9-a1c2-ed28e2dc656e"
+  },
+  {
+    "country": "ZA",
+    "dateRegistered": "2019-02-23T14:35:40.576Z",
+    "docType": "com.oneconnect.biz.Customer",
+    "email": "info@supercon.com",
+    "name": "Regional Supermarkets Ltd",
+    "participantId": "4b056a00-3778-11e9-ae37-4b6b2d6eba2f"
+  },
+  {
+    "country": "ZA",
+    "dateRegistered": "2019-02-23T00:46:19.553Z",
+    "docType": "com.oneconnect.biz.Customer",
+    "email": "insfo@mastercon.com",
+    "name": "Master Construction Ltd",
+    "participantId": "6f23e110-3704-11e9-82ea-7f18f53d996a"
+  }
+]

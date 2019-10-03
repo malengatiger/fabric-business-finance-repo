@@ -1,0 +1,23 @@
+ 💦  💦  💦  Gateway Options: {"queryHandler":"./impl/query/defaultqueryhandler",
+ "queryHandlerOptions":{},"eventHandlerOptions":{"commitTimeout":300},
+ "discovery":{"asLocalhost":false,"enabled":false},
+ "wallet":{"storesInitialized":false,"walletMixin":{},"path":"/var/folders/r6/hr1z4mmd5w77zbc_2j1ccq880000gn/T/wallet1550777440443j5240h"},"identity":"admin"}
+👿  👿  👿 
+admin-registration-service.ts:142
+ Error: no suitable peers available to initialize from 
+
+ /////////////////////////////////////
+
+ 💦  💦  💦  Gateway Options: {"queryHandler":"./impl/query/defaultqueryhandler",
+ "queryHandlerOptions":{},"eventHandlerOptions":{"commitTimeout":300},
+ "discovery":{"asLocalhost":false,"enabled":true},
+ "wallet":{"storesInitialized":false,"walletMixin":{},"path":"/var/folders/r6/hr1z4mmd5w77zbc_2j1ccq880000gn/T/wallet1550777737449vn66gP"},"identity":"admin"}
+👿  👿  👿 
+ Error: Unable to initialize channel. 
+ Attempted to contact 1 Peers. Last error was Error: Failed to discover ::
+ Error: Failed to connect before the deadline URL:grpcs://6a8196c6cae84bbaa5b4606fbaba63a8-peer8193a3.bfncluster.us-south.containers.appdomain.cloud:7051 
+👿  👿  👿 
+
+ Error: Unable to initialize channel. Attempted to contact 1 Peers. 
+ Last error was Error: Failed to discover ::
+ Error: Failed to connect before the deadline URL:grpcs://6a8196c6cae84bbaa5b4606fbaba63a8-peer8193a3.bfncluster.us-south.containers.appdomain.cloud:7051 

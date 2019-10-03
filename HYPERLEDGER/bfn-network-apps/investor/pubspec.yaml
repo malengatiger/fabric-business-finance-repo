@@ -1,0 +1,46 @@
+name: investor
+description: Investor app
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  businesslibrary:
+      path: /Users/mac/Documents/GitHub/business-finance-mobile-apps/businesslibrary
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+       - assets/fincash.jpg
+       - assets/fin3.jpeg
+       - assets/computers.png
+       - assets/1.png
+       - assets/2.png
+       - assets/3.png
+  fonts:
+       - family: Raleway
+         fonts:
+               - asset: fonts/Raleway-Regular.ttf
+               - asset: fonts/Raleway-Italic.ttf
+               - asset: fonts/Raleway-ExtraBold.ttf
+               - asset: fonts/Raleway-Bold.ttf
+       - family: RobotoMono
+         fonts:
+               - asset: fonts/Roboto-Regular.ttf
+               - asset: fonts/Roboto-Bold.ttf
+       - family: Rubik
+         fonts:
+               - asset: fonts/Rubik-Regular.ttf
+               - asset: fonts/Rubik-Bold.ttf
+               - asset: fonts/Rubik-Black.ttf
+               - asset: fonts/Rubik-Light.ttf
+               - asset: fonts/Rubik-Italic.ttf
+               - asset: fonts/Rubik-Medium.ttf

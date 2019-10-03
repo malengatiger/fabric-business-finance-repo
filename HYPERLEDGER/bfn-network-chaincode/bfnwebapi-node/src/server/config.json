@@ -1,0 +1,9 @@
+{
+    "connection_file": "bfn-profile.json",
+    "appAdmin": "org1admin",
+    "appAdminSecret": "org1adminpw",
+    "orgMSPID": "org1msp",
+    "caName": "https://6a8196c6cae84bbaa5b4606fbaba63a8-ca836d5b.bfncluster.us-south.containers.appdomain.cloud:7054",
+    "userName": "user1",
+    "gatewayDiscovery": { "enabled": true, "asLocalhost": false }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.9.13+1/android/cloud_firestore.iml" filepath="$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.9.13+1/android/cloud_firestore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/device_info-0.3.0/android/device_info.iml" filepath="$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/device_info-0.3.0/android/device_info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.8.4+5/android/firebase_auth.iml" filepath="$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.8.4+5/android/firebase_auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.3.4/android/firebase_core.iml" filepath="$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.3.4/android/firebase_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-4.0.0+3/android/firebase_messaging.iml" filepath="$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-4.0.0+3/android/firebase_messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/firebase_remote_config-0.0.6+1/android/firebase_remote_config.iml" filepath="$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/firebase_remote_config-0.0.6+1/android/firebase_remote_config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-2.1.0+1/android/firebase_storage.iml" filepath="$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-2.1.0+1/android/firebase_storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_webview_plugin-0.3.4/android/flutter_webview_plugin.iml" filepath="$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_webview_plugin-0.3.4/android/flutter_webview_plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-0.5.7/android/google_maps_flutter.iml" filepath="$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-0.5.7/android/google_maps_flutter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-3.3.0+1/android/google_sign_in.iml" filepath="$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-3.3.0+1/android/google_sign_in.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/location-1.4.1/android/location.iml" filepath="$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/location-1.4.1/android/location.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-0.5.0+1/android/path_provider.iml" filepath="$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-0.5.0+1/android/path_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.2/android/shared_preferences.iml" filepath="$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.2/android/shared_preferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/git/plugins-43045155051a6f9a4fe2a0084aba047c4e3ab3cf/packages/url_launcher/android/url_launcher.iml" filepath="$PROJECT_DIR$/../../../../flutter/.pub-cache/git/plugins-43045155051a6f9a4fe2a0084aba047c4e3ab3cf/packages/url_launcher/android/url_launcher.iml" />
+    </modules>
+  </component>
+</project>

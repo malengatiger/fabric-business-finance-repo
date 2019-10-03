@@ -1,0 +1,500 @@
+  112  ls
+  113  pwd
+  114  cd business-finance-net
+  115  ./startFabric.sh 
+  116  ./startNetwork.sh 
+  117  cd ../business-finance-net3/bfn
+  118  ls
+  119  ./startFabric.sh 
+  120  export FABRIC_VERSION=hlfv12
+  121  ./startFabric.sh 
+  122  ./startNetwork.sh 
+  123  cd business-finance-net3
+  124  npm i
+  125  npm 
+  126  cd bfn
+  127  composer archive create --sourceType dir --sourceName .
+  128  ./startFabric.sh 
+  129  ls
+  130  composer card create -f adminCard.card -p connection.json -u admin -s adminpw
+  131  composer card import -f adminCard.card -c adminCard
+  132  composer card import -f adminCard.card -c adminCard
+  133  composer card create -f adminCard.card -p connection.json -u admin -s adminpw
+  134  composer card import -f adminCard.card -c adminCard
+  135  ls
+  136  composer card create -f ca.card -p connection.json -u admin -s adminpw
+  137  composer card import -f ca.card -c ca
+  138  composer card create -f admin@bfn.card -n bfn -u admin -s adminpw -p connection.json
+  139  composer card import  -f admin@bfn.card -c admin@bfn
+  140  ./startFabric.sh 
+  141  ls
+  142  composer network install --a bfn@0.0.3.bna --card PeerAdmin@hlfv1
+  143  composer archive create --sourceType dir --sourceName .
+  144  composer network install --a bfn@0.0.3.bna --card adminCard
+  145  composer network install --a bfn@0.0.3.bna --card PeerAdmin@hlfv1
+  146  composer network install --archiveFile bfn@0.0.3.bna --card PeerAdmin@hlfv1
+  147  cd ~/
+  148  ls
+  149  mkdir fabricTestBed
+  150  cd fabricTestBed/
+  151  yo hyperledger-generate
+  152  yo generator-hyperledger-generate
+  153  yo hyperledger-composer
+  154  cd bfn2/
+  155  ls
+  156  composer archive create --sourceType dir --sourceName .
+  157  composer network install --a bfn2@0.0.1.bna --card PeerAdmin@hlfv1
+  158  composer-rest-server
+  159  ls
+  160  npm install -g composer-cli@0.19
+  161  npm install -g composer-rest-server@0.19
+  162  npm install -g generator-hyperledger-composer@0.19
+  163  npm install -g yo
+  164  npm install -g composer-playground@0.19
+  165  cd ~/
+  166  cd Documents/
+  167  git clone https://github.com/hyperledger/fabric-sdk-java.git
+  168  cd fabric-sdk-java/
+  169  ls
+  170  git checkout -b release-1.2
+  171  npm install -g composer-cli
+  172  npm install -g composer-rest-server
+  173  npm install -g generator-hyperledger-composer
+  174  npm install -g composer-playground
+  175  mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
+  176  cd ~/fabric-dev-servers
+  177  ls
+  178  curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/packages/fabric-dev-servers/fabric-dev-servers.tar.gz
+  179  tar -xvf fabric-dev-servers.tar.gz
+  180  export FABRIC_VERSION=hlfv12
+  181  ./downloadFabric.sh
+  182  cd ~/Documents/GitHub/business-finance-network/business-finance-net
+  183  ls
+  184  ./startFabric.sh 
+  185  mvn clean install -DskipITs=false -Dmaven.test.failure.ignore=false javadoc:javadoc
+  186  cd ~/Documents/
+  187  ls
+  188  cd fabric-java/
+  189  ls
+  190  mvn clean install -DskipITs=false -Dmaven.test.failure.ignore=false javadoc:javadoc
+  191  mvn clean install -DskipITs=false -Dmaven.test.failure.ignore=false javadoc:javadoc
+  192  git clone https://github.com/vishal3152/HyperledgerFabric-Java-Client.git
+  193  ls
+  194  git clone https://github.com/lkolisko/scratch.git tutorial
+  195  ~/fabric-samples/first-network/
+  196  ls
+  197  cd ~/fabric-samples/first-network/
+  198  ls
+  199  code .
+  200  cd ~/Documents/GitHub/business-finance-network/business-finance-net3/bfn
+  201  ls
+  202  ./stopFabric.sh
+  203  ./teardownFabric.sh
+  204  cd ~/fabric-dev-servers/
+  205  ./stopFabric.sh 
+  206  docker ps
+  207  docker ps
+  208  docker images
+  209  docker images
+  210  npm i
+  211  composer archive create --sourceType dir --sourceName .
+  212  ./startFabric.sh 
+  213  echo $FIREBASE_VERSION
+  214  echo $FABRIC_VERSION
+  215  export FABRIC_VERSION=hlfv12
+  216  echo $FABRIC_VERSION
+  217  ./startFabric.sh 
+  218  ls
+  219  cd dist
+  220  cd ..
+  221  composer network install --a /dist/bfn2.bna --card PeerAdmin@hlfv1
+  222  composer network install --a ./dist/bfn2.bna --card PeerAdmin@hlfv1
+  223  npm i -g composer-cli:@0.19.6 composer-rest-server:@0.19.6
+  224  npm i -g composer-cli@0.19.6 composer-rest-server@0.19.6
+  225  npm install -g generator-hyperledger-composer@0.19.6
+  226  export FABRIC_VERSION=hlfv11
+  227  ./startFabric.sh 
+  228  ./startFabric.sh 
+  229  composer-playground
+  230  export FABRIC_VERSION=hlfv12
+  231  ./startFabric.sh 
+  232  npm install -g generator-hyperledger-composer
+  233  npm i -g composer-cli composer-rest-server
+  234  ./startFabric.sh 
+  235  composer card list --card PeerAdmin@hlfv1
+  236  composer archive create --sourceType dir --sourceName .
+  237  composer card create -f adminCard.card -p connection.json -u admin -s adminpw
+  238  composer card create -f adminCard.card -p connection.json -u admin -s adminpw
+  239  composer card import -f adminCard.card -c adminCard
+  240  export FABRIC_VERSION=hlfv12
+  241  ./startFabric.sh 
+  242  composer network install --a bfn2@0.0.1.bna --card PeerAdmin@hlfv1
+  243  composer-rest-server --version
+  244  npm fabric-ca-client, fabric-client grpc
+  245  npm i -g fabric-ca-client, fabric-client grpc
+  246  npm i -g fabric-ca-client fabric-client grpc
+  247  docker-compose stop 
+  248  echo FABRIC_VERSION
+  249  echo $FABRIC_VERSION
+  250  docker ps
+  251  ./startFabric.sh 
+  252  composer network install --a bfn2@0.0.1.bna --card PeerAdmin@hlfv1
+  253  cd ~/fabric-dev-servers/
+  254  ls
+  255  mkdir fabric-samples
+  256  cd fabric-samples/
+  257  curl -sSL http://bit.ly/2ysbOFE | bash -s 1.2.1
+  258  ls
+  259  cd fabric-samples/
+  260  ls
+  261  cd first-network/
+  262  ls
+  263  code .
+  264  cd ..
+  265  cd ..
+  266  cd bin
+  267  ls
+  268  cd fabric-samples/
+  269  ls
+  270  cd bin
+  271  pwd
+  272  git add business-finance-net3
+  273  git commit business-finance-net3 -m "initial commit for fabric 1.2"
+  274  git push
+  275  cd business-finance-net3
+  276  cd bfn
+  277  cd ..
+  278  cd ..
+  279  cd deploy3/
+  280  ls
+  281  export NODE_CONFIG=$(cat cardstore-cloudant.json)
+  282  composer card create -f ca.card -p connection-profile.json -u admin -s a198093a2d
+  283  composer card import -f ca.card -c ca
+  284  composer identity request --card ca --path ./credentials
+  285  composer card create -f adminCard.card -p connection-profile.json -u admin -c ./credentials/admin-pub.pem -k ./credentials/admin-priv.pem --role PeerAdmin --role ChannelAdmin
+  286  composer card import -f adminCard.card -c adminCard
+  287  composer network install -c adminCard -a bfn@0.0.6.bna 
+  288  composer network start -c adminCard -n business-finance-netx -V 0.0.6 -A admin -C ./credentials/admin-pub.pem -f delete_me.card
+  289  ls
+  290  composer network install -c adminCard -a bfn@0.0.7.bna
+  291  composer network install -c adminCard -a bfn@0.0.7.bna
+  292  composer network start -c adminCard -n bfn -V 0.0.7 -A admin -C ./credentials/admin-pub.pem -f delete_me.card
+  293  rm delete_me.card 
+  294  composer card create -n bfn -p ./connection-profile.json  -u admin -c ./credentials/admin-pub.pem -k ./credentials/admin-priv.pem
+  295  composer card import -f admin@bfn.card
+  296  export NODE_CONFIG=$(cat cardstore-cloudant.json)
+  297  cf push bfnrestv3 --docker-image ibmblockchain/composer-rest-server -c "composer-rest-server -c admin@bfn -n never -w true" -i 1 -m 256M --no-start --no-manifest
+  298  cf set-env bfnrestv3 NODE_CONFIG "${NODE_CONFIG}"
+  299  cf start bfnrestv3
+  300  cf logs bfnrestv3 --recent
+  301  composer -v
+  302  npm install -g loopback-cli
+  303  yo hyperledger-generate
+  304  cd ~/
+  305  yo hyperledger-composer
+  306  npm audit fix
+  307  npm audit fix
+  308  ls
+  309  cd bfnrestapi/
+  310  npm audit fix
+  311  code .
+  312  node .
+  313  node .
+  314  export NODE_CONFIG=$(cat cardstore-cloudant.json)
+  315  cd business-finance-net3
+  316  cd bfn
+  317  composer archive create --sourceType dir --sourceName . 
+  318  ls
+  319  cd ..
+  320  cd ..
+  321  cd deploy3/
+  322  export NODE_CONFIG=$(cat cardstore-cloudant.json)
+  323  cf push bfnrestv3 --docker-image hyperledger/composer-rest-server -c "composer-rest-server -c admin@bfn -n never -w true" -i 1 -m 256M --no-start --no-manifest 
+  324  cf set-env bfnrestv3 NODE_CONFIG "${NODE_CONFIG}"
+  325  cf start bfnrestv3
+  326  echo $NODE_CONFIG
+  327  cf push bfnrestv3 --docker-image ibmblockchain/composer-rest-server -c "composer-rest-server -c admin@bfn -n never -w true" -i 1 -m 256M --no-start --no-manifest 
+  328  cf set-env bfnrestv3 NODE_CONFIG ${NODE_CONFIG}
+  329  cf set-env bfnrestv3 NODE_CONFIG "${NODE_CONFIG}"
+  330  cf restage bfnrestv3
+  331  cf start bfnrestv3
+  332  firebase deploy
+  333  firebase deploy
+  334  firebase deploy
+  335  firebase deploy
+  336  firebase deploy
+  337  firebase deploy
+  338  firebase deploy
+  339  cd ..
+  340  git add bizfunctionsv3/
+  341  git commit bizfunctionsv3/ -m "added test user delete function"
+  342  git push
+  343  git add bizfunctionsv3/
+  344  git commit bizfunctionsv3/ -m "added wallet helper"
+  345  git push
+  346  git commit bizfunctionsv3/ -m "tweaks to addData"
+  347  git push
+  348  npm i
+  349  npm audit fix
+  350  npm audit fix --force
+  351  node .
+  352  node .
+  353  ls
+  354  touch Dockerfile
+  355  code Dockerfile 
+  356  touch .dockerignore
+  357  code .dockerignore 
+  358  ls
+  359  docker build -t malengatiger/bfnrestapi .
+  360  docker run -p 49160:8080 -d  malengatiger/bfnrestapi 
+  361  docker ps
+  362  docker ps
+  363  docker ps
+  364  docker logs 963369b097bc
+  365  docker run -p 49160:8080 -d  malengatiger/bfnrestapi 
+  366  docker run -p 49160:8081 -d  malengatiger/bfnrestapi 
+  367  docker run -p 49161:8081 -d  malengatiger/bfnrestapi 
+  368  docker ps
+  369  docker logs d4f7c9933dcf
+  370  cf set-env bfnrestapi NODE_CONFIG "${NODE_CONFIG}"
+  371  export NODE_CONFIG=$(cat cardstore-cloudant.json)
+  372  cd ~/Documents/GitHub/business-finance-network/business-finance-net3
+  373  cd ..
+  374  cd deploy3/
+  375  ls
+  376  export NODE_CONFIG=$(cat cardstore-cloudant.json)
+  377  cf push bfnrestapi --docker-image malengatiger/bfnrestapi  -c "node ." -i 1 -m 256M --no-start --no-manifest 
+  378  cf set-env bfnrestapi NODE_CONFIG "${NODE_CONFIG}"
+  379  cf start bfnrestapi
+  380  cd business-finance-net3
+  381  cd bfn/
+  382  ./startFabric.sh 
+  383  ./startFabric.sh 
+  384  export FABRIC_VERSION=hlfv12
+  385  ./startFabric.sh 
+  386  ls
+  387  ./
+  388  ./startFabric.sh 
+  389  export FABRIC_START_TIMEOUT=30
+  390  ./startFabric.sh 
+  391  composer archive create --sourceType dir --sourceName .
+  392  composer network install --a bfn@0.0.3.bna --card PeerAdmin@hlfv1
+  393  composer network start --networkName bfn --networkVersion 0.0.3 --card PeerAdmin@hlfv1 --networkAdmin admin --networkAdminEnrollSecret adminpw
+  394  ./startNetwork.sh 
+  395  ls
+  396  composer card create -f adminCard.card -p connection.json -u admin -s adminpw
+  397  composer card import -f adminCard.card -c adminCard
+  398  composer card create -f admin@bfn.card -n bfn -u admin -s adminpw -p connection.json
+  399  composer card import  -f admin@bfn.card -c admin@bfn
+  400  ./startFabric.sh 
+  401  ./startFabric.sh 
+  402  ./startNetwork.sh 
+  403  ./startNetwork.sh 
+  404  composer card create -f admin@bfn.card -n bfn -u admin -s adminpw -p connection.json
+  405  composer card import  -f admin@bfn.card -c admin@bfn
+  406  ./startNetwork.sh 
+  407  composer archive create --sourceType dir --sourceName ./dist/bfn.bna
+  408  composer archive create --sourceType dir --sourceName ../dist/bfn.bna
+  409  composer archive create --sourceType dir --sourceName . -a ./dist/bfn.bna
+  410  ./startNetwork.sh 
+  411  composer network start --networkName bfn --networkVersion 0.0.5 --card PeerAdmin@hlfv1 --networkAdmin admin --networkAdminEnrollSecret adminpw
+  412  ./startNetwork.sh 
+  413  ./startFabric.sh 
+  414  composer archive create --sourceType dir --sourceName . -a ./dist/bfn.bna
+  415  composer archive create --sourceType dir --sourceName . -a ./dist/.
+  416  composer archive create --sourceType dir --sourceName . -a ./dist
+  417  composer archive create --sourceType dir --sourceName .
+  418  ./startNetwork.sh 
+  419  composer-rest-server -c admin@bfn --port 3003 -n never -w true
+  420  ./startNetwork.sh 
+  421  ./startNetwork.sh 
+  422  ./startFabric.sh 
+  423  ./startNetwork.sh 
+  424  ./startFabric.sh 
+  425  ./startNetwork.sh 
+  426  export FABRIC_START_TIMEOUT=15
+  427  ./startFabric.sh 
+  428  ./startNetwork.sh 
+  429  ./startFabric.sh 
+  430  ./startNetwork.sh 
+  431  ./startFabric.sh 
+  432  ./startNetwork.sh 
+  433  ./startFabric.sh 
+  434  ./startNetwork.sh 
+  435  ./startFabric.sh 
+  436  ./startNetwork.sh 
+  437  ./startNetwork.sh 
+  438  ./startNetwork.sh 
+  439  ./startFabric.sh 
+  440  ./startNetwork.sh 
+  441  ./startFabric.sh 
+  442  ./startNetwork.sh 
+  443  ./startFabric.sh 
+  444  ./startNetwork.sh 
+  445  ./startFabric.sh 
+  446  ./startNetwork.sh 
+  447  ./startFabric.sh 
+  448  ./startNetwork.sh 
+  449  ./startFabric.sh 
+  450  ./startNetwork.sh 
+  451  ./startFabric.sh 
+  452  ./startNetwork.sh 
+  453  ./startFabric.sh 
+  454  ./startNetwork.sh 
+  455  ./startFabric.sh 
+  456  ./startNetwork.sh 
+  457  ./startFabric.sh 
+  458  ./startNetwork.sh 
+  459  ./startFabric.sh 
+  460  ./startNetwork.sh 
+  461  ./startFabric.sh 
+  462  ./startFabric.sh 
+  463  ./startFabric.sh 
+  464  ./startFabric.sh 
+  465  ./startFabric.sh 
+  466  ./startFabric.sh 
+  467  ./startFabric.sh 
+  468  ./startFabric.sh 
+  469  ./startFabric.sh 
+  470  ./startFabric.sh 
+  471  ./startFabric.sh 
+  472  ./startFabric.sh 
+  473  ./startFabric.sh 
+  474  ./startFabric.sh 
+  475  git add business-finance-net3
+  476  git add deploy3
+  477  git commit business-finance-net3 -m "the beat goes on"
+  478  git commit deploy3/ -m "the beat goes on"
+  479  git push
+  480  git commit deploy3/ -m "the beat goes on II"
+  481  git push
+  482  git commit business-finance-net3/ -m "the beat goes on II"
+  483  git commit deploy3/ -m "the beat goes on II"
+  484  git push
+  485  cd business-finance-net3
+  486  pwd
+  487  ./startFabric.sh
+  488  cd business-finance-net3
+  489  ./startFabric.sh
+  490  cd bfn
+  491  pwd
+  492  /Users/mac/flutter/bin/flutter ; exit;
+  493  cp -r flutter ~/Documents/flutter
+  494  cd ~/Documents/
+  495  ls
+  496  cd flutter
+  497  ls
+  498  npm i
+  499  npm start
+  500  cd business-finance-net3/bfn
+  501  cd ..
+  502  cd ..
+  503  cd deploy3/
+  504  export NODE_CONFIG=$(cat cardstore-cloudant.json)
+  505  composer card create -f ca.card -p connection-profile.json -u admin -s a198093a2d
+  506  composer card import -f ca.card -c ca
+  507  composer identity request --card ca --path ./credentials
+  508  composer card create -f adminCard.card -p connection-profile.json -u admin -c ./credentials/admin-pub.pem -k ./credentials/admin-priv.pem --role PeerAdmin --role ChannelAdmin
+  509  composer card import -f adminCard.card -c adminCard
+  510  composer network install -c adminCard -a bfn@0.0.8.bna
+  511  composer network start -c adminCard -n bfn -V 0.0.8 -A admin -C ./credentials/admin-pub.pem -f delete_me.card
+  512  composer card create -n bfn -p ./connection-profile.json  -u admin -c ./credentials/admin-pub.pem -k ./credentials/admin-priv.pem
+  513  composer card import -f admin@bfn.card
+  514  composer network ping --card admin@bfn
+  515  export NODE_CONFIG=$(cat cardstore-cloudant.json)
+  516  composer card create -f ca.card -p connection-profile.json -u admin -s 2c174d3a05
+  517  composer card import -f ca.card -c ca
+  518  composer identity request --card ca --path ./credentials
+  519  composer card create -f adminCard.card -p connection-profile.json -u admin -c ./credentials/admin-pub.pem -k ./credentials/admin-priv.pem --role PeerAdmin --role ChannelAdmin
+  520  composer card import -f adminCard.card -c adminCard
+  521  composer network install -c adminCard -a bfn@0.0.1.bna
+  522  composer network start -c adminCard -n bfn -V 0.0.1 -A admin -C ./credentials/admin-pub.pem -f delete_me.card
+  523  rm delete_me.card
+  524  composer card create -n bfn -p ./connection-profile.json  -u admin -c ./credentials/admin-pub.pem -k ./credentials/admin-priv.pem
+  525  composer card import -f admin@bfn.card
+  526  composer network ping -c admin@bfn
+  527  npm install -g loopback-connector-cloudant
+  528  npm install -g loopback-connector-mongodb
+  529  touch Dockerfile
+  530  docker build -t malengatiger/bfn-composer-rest-server .
+  531  docker images
+  532  docker images
+  533  composer network ping -c admin@bfn
+  534  touch envvars.txt
+  535  source envvars.txt
+  536  echo $COMPOSER_CARD
+  537  docker run     -d     -e COMPOSER_CARD=${COMPOSER_CARD}     -e COMPOSER_NAMESPACES=${COMPOSER_NAMESPACES}     -e COMPOSER_AUTHENTICATION=${COMPOSER_AUTHENTICATION}     -e COMPOSER_MULTIUSER=${COMPOSER_MULTIUSER}     -e COMPOSER_PROVIDERS="${COMPOSER_PROVIDERS}"     -e COMPOSER_DATASOURCES="${COMPOSER_DATASOURCES}"     -v ~/.composer:/home/composer/.composer     --name rest     --network composer_default     -p 3000:3000     malengatiger/bfn-composer-rest-server
+  538  docker logs -f rest
+  539  docker run -d --name mongo --network composer_default -p 27017:27017 mongo
+  540  docker ps
+  541  FROM hyperledger/composer-rest-server
+  542  RUN npm install --production loopback-connector-mongodb passport-github &&     npm cache clean --force && \
+  543  ls
+  544  export NODE_CONFIG=$(cat cardstore-cloudant.json)
+  545  cf push bfnrestv3 --docker-image malengatiger/bfn-composer-rest-server -c "composer-rest-server -c admin@bfn -n never -w true" -i 1 -m 256M --no-start --no-manifest 
+  546  cf set-env bfnrestv3 NODE_CONFIG "${NODE_CONFIG}"
+  547  cf start bfnrestv3
+  548  docker login --username=malengatiger
+  549  docker images
+  550  docker tag c9bc13d35a7d malengatiger/bfn-composer-rest-server:firsttry
+  551  docker push malengatiger/bfn-composer-rest-server
+  552  cf push bfnrestv3 --docker-image malengatiger/bfn-composer-rest-server -c "composer-rest-server -c admin@bfn -n never -w true" -i 1 -m 256M --no-start --no-manifest 
+  553  cf set-env bfnrestv3 NODE_CONFIG "${NODE_CONFIG}"
+  554  cf start bfnrestv3
+  555  cf logs bfnrestv3 --recent
+  556  ibmcloud --help
+  557  ibmcloud info
+  558  ls
+  559  ibmcloud ls
+  560  ibmcloud regions
+  561  cf push bfnrestv3 --docker-image malengatiger/bfn-composer-rest-server -c "npm install -g @ampretia/composer-wallet-cloudant; composer-rest-server -c admin@bfn -n never -w true" -i 1 -m 256M --no-start --no-manifest
+  562  cf set-env bfnrestv3 NODE_CONFIG "${NODE_CONFIG}"
+  563  cf start bfnrestv3
+  564  cf logs bfnrestv3 --recent
+  565  cf logs bfnrestv3 --recent
+  566  cf logs bfnrestv3 --recent > logs.txt
+  567  clear
+  568  export NODE_CONFIG=$(cat cardstore-cloudant.json)
+  569  composer card create -f ca.card -p connection-profile.json -u admin -s 4af8993cb1
+  570  composer card import -f ca.card -c ca
+  571  composer identity request --card ca --path ./credentials
+  572  composer card create -f adminCard.card -p connection-profile.json -u admin -c ./credentials/admin-pub.pem -k ./credentials/admin-priv.pem --role PeerAdmin --role ChannelAdmin
+  573  composer card import -f adminCard.card -c adminCard
+  574  composer network install -c adminCard -a bfn@0.0.1.bna
+  575  composer network start -c adminCard -n bfn -V 0.0.1 -A admin -C ./credentials/admin-pub.pem -f delete_me.card
+  576  rm delete_me.card
+  577  composer card create -n bfn -p ./connection-profile.json  -u admin -c ./credentials/admin-pub.pem -k ./credentials/admin-priv.pem
+  578  composer card import -f admin@bfn.card
+  579  export NODE_CONFIG=$(cat cardstore-cloudant.json)
+  580  cf push bfnrestv3 --docker-image malengatiger/bfn-composer-rest-server -c "npm install -g @ampretia/composer-wallet-cloudant; composer-rest-server -c admin@bfn -n never -w true" -i 1 -m 256M --no-start --no-manifest 
+  581  cf set-env bfnrestv3 NODE_CONFIG "${NODE_CONFIG}"
+  582  cf start bfnrestv3
+  583  export NODE_CONFIG=$(cat cardstore-cloudant.json)
+  584  composer card create -f ca.card -p connection-profile.json -u admin -s 706adb7c3a
+  585  composer card import -f ca.card -c ca
+  586  composer identity request --card ca --path ./credentials
+  587  composer card create -f adminCard.card -p connection-profile.json -u admin -c ./credentials/admin-pub.pem -k ./credentials/admin-priv.pem --role PeerAdmin --role ChannelAdmin
+  588  composer card import -f adminCard.card -c adminCard
+  589  -----BEGIN CERTIFICATE-----
+  590  MIIB8TCCAZigAwIBAgIUH6BNXP3T+QYVhjql/aymvzT3UxswCgYIKoZIzj0EAwIw
+  591  bzELMAkGA1UEBhMCVVMxFzAVBgNVBAgTDk5vcnRoIENhcm9saW5hMRQwEgYDVQQK
+  592  EwtIeXBlcmxlZGdlcjEPMA0GA1UECxMGRmFicmljMSAwHgYDVQQDExdmYWJyaWMt
+  593  Y2Etc2VydmVyLW9yZzFDQTAeFw0xODEwMTcxNjA2MDBaFw0xOTEwMTcxNjExMDBa
+  594  MCExDzANBgNVBAsTBmNsaWVudDEOMAwGA1UEAxMFYWRtaW4wWTATBgcqhkjOPQIB
+  595  BggqhkjOPQMBBwNCAAQCYhtuBkpjVfEJG8/x//9nV/5Ss0C4FZ2ieKCnoQRoOXMD
+  596  epZA/cYx63E2OsQk8xTDkV9mMcdw+M4x9oJDl2cNo2AwXjAOBgNVHQ8BAf8EBAMC
+  597  B4AwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUPrnEEFWd4D/y6hh3VdZA79WB98kw
+  598  HwYDVR0jBBgwFoAU2Ev/UBBVd6SFxEpGrm0ZHWyt4CYwCgYIKoZIzj0EAwIDRwAw
+  599  RAIgCvssTExoSXtcYOJsPjVck2zV7RgUL8F73wyyC+jgnUICIAYzgHaHIqNT0abL
+  600  /Dwjv1W/EJ0jzCNA0QYM7biOR3Sm
+  601  -----END CERTIFICATE-----
+  602  composer network install -c adminCard -a bfn@0.0.1.bna
+  603  composer network start -c adminCard -n bfn -V 0.0.1 -A admin -C ./credentials/admin-pub.pem -f delete_me.card
+  604  rm delete_me.card
+  605  composer card create -n bfn -p ./connection-profile.json  -u admin -c ./credentials/admin-pub.pem -k ./credentials/admin-priv.pem
+  606  composer card import -f admin@bfn.card
+  607  cf stop bfnrestv3
+  608  cf start bfnrestv3
+  609  cf docker logs bfnrestv3 --recent > logs.txt
+  610  composer network ping --card admin@bfn
+  611  history > history.txt

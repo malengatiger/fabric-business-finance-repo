@@ -1,0 +1,17 @@
+{
+  "supplier": "e4cc2910-399b-11e9-b18d-d53f80ae5199",
+  "purchaseOrderId": "n/a",
+  "customer": "c4e95190-399b-11e9-b18d-d53f80ae5199",
+  "user": "n/a",
+  "date": "n/a",
+  "intDate": "n/a",
+  "deliveryDateRequired": "n/a",
+  "amount": 28305.0,
+  "description": "Generated Demo Purchase Order",
+  "deliveryAddress": "n/a",
+  "purchaseOrderNumber": "PO-3111187-54",
+  "purchaseOrderURL": "n/a",
+  "supplierName": "DHH Transport Logistics",
+  "purchaserName": "Atteridgeville MetalWorks Ltd",
+  "contractURL": "n/a"
+}

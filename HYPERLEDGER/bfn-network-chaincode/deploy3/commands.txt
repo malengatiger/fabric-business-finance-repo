@@ -1,0 +1,88 @@
+
+############## INSTRUCTIONS TO DEPLOY TO IBM BLOCKCHAIN STARTER plan
+####################################################################
+
+mkdir deploy3
+cd deploy3
+copy .bna to deploy3
+
+### install cloudfoundry cli
+cf login
+
+curl -sL http://ibm.biz/idt-installer | bash
+
+###  READ this .......
+https://console.bluemix.net/docs/cli/index.html#overview
+https://www.ibm.com/developerworks/cloud/library/cl-deploy-blockchain-starter-plan-network/index.html
+
+################ #####################  CREATE BLOCKCHAIN NETWORK 
+
+  ### create blockchain service on console
+  ### download service creds and create profile-connection.json 
+  ### on console - create cloudant database to hold network auth cards
+
+  ### create cardstore-cloudant.json and copy credentials from cloudant console
+
+  505  export NODE_CONFIG=$(cat cardstore-cloudant.json)
+                   
+  506  composer card create -f ca.card -p connection-profile.json -u admin -s 51faf526bc
+  507  composer card import -f ca.card -c ca
+  509  composer identity request --card ca --path ./credentials
+ 
+  511  composer card create -f adminCard.card -p connection-profile.json -u admin -c ./credentials/admin-pub.pem -k ./credentials/admin-priv.pem --role PeerAdmin --role ChannelAdmin
+  512  composer card import -f adminCard.card -c adminCard
+
+  ### go to ibm cloud console and add cert from local credentials folder
+  ### sync cert from menu and restart peers
+  ### navigate to channels and sync cert
+
+  513  composer network install -c adminCard -a bfn@0.0.2.bna
+  514  composer network start -c adminCard -n bfn -V 0.0.2 -A admin -C ./credentials/admin-pub.pem -f delete_me.card
+  515  rm delete_me.card
+  516  composer card create -n bfn -p ./connection-profile.json  -u admin -c ./credentials/admin-pub.pem -k ./credentials/admin-priv.pem
+  519  composer card import -f admin@bfn.card
+  520  composer network ping --card admin@bfn
+  
+  ################################################# INSTALL COMPOSER REST SERVER
+  
+  ### on console, delete bfnrestv3 if it exists
+
+  ### IMPORTANT !!!!!!!!!!!!!!!!!!!!!!
+  ### create a new image malengatiger/bfn-composer-rest-server (see Dockerfile)
+  ### push new image to Docker Hub
+  ### TODO: add authentication, eg. GitHub etc
+  ######### contents of Dockerfile ############################
+  FROM hyperledger/composer-rest-server
+  RUN npm install --production loopback-connector-cloudant && \
+    npm cache clean --force && \
+    ln -s node_modules .node_modules
+  #############################################################
+
+  export NODE_CONFIG=$(cat cardstore-cloudant.json)
+  cf push bfnrestv3 --docker-image malengatiger/bfn-composer-rest-server -c "npm install -g @ampretia/composer-wallet-cloudant; composer-rest-server -c admin@bfn -n never -w true" -i 1 -m 256M --no-start --no-manifest 
+  cf set-env bfnrestv3 NODE_CONFIG "${NODE_CONFIG}"
+  cf start bfnrestv3
+
+################################################ STOP and START COMPOSER REST SERVER
+  cf login
+  cf app bfnrestv3
+  cf stop bfnrestv3
+  cf start bfnrestv3
+  composer network ping --card admin@bfn
+####################################################### UPDATE .BNA FILE WITH NEW VERSION 
+
+### update chaincode
+### compile new .bna file
+
+composer network install -c adminCard -a business-finance-netx\@1.0.159.bna 
+
+### proceed to starter plan console and navigate to Install Chaincode
+
+### you should see new version listed. click on menu and then select Update
+### select Node as Chaincode Type from dropdown
+
+### click Next and then submit
+
+##########################################################################################
+cf push bfnrestv3 --docker-image malengatiger/bfnrestapi -c "composer-rest-server -c admin@bfn -n never -w true" -i 1 -m 256M --no-start --no-manifest 
+

@@ -1,0 +1,275 @@
+{
+  "project_info": {
+    "project_number": "970597890524",
+    "firebase_url": "https://business-finance-dev.firebaseio.com",
+    "project_id": "business-finance-dev",
+    "storage_bucket": "business-finance-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970597890524:android:76541c344b47ca05",
+        "android_client_info": {
+          "package_name": "com.oneconnect.crudderv3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970597890524-gvk61cr8dqhk2lmrujkids32ne9g4vlv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oneconnect.crudderv3",
+            "certificate_hash": "c2a612e2c1c6c058f139ab260f5112807326ee17"
+          }
+        },
+        {
+          "client_id": "970597890524-s3kp8btljfbh2nq33qcb9hh9kb1lkfkl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgg54ggUkKnu4JuaDw5rhl2_FhxQRugLU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970597890524-s3kp8btljfbh2nq33qcb9hh9kb1lkfkl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970597890524:android:97dd9785d3e5eed8",
+        "android_client_info": {
+          "package_name": "com.oneconnect.govt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970597890524-clgqppfspsekfhphug10n9oicq96ic95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oneconnect.govt",
+            "certificate_hash": "c2a612e2c1c6c058f139ab260f5112807326ee17"
+          }
+        },
+        {
+          "client_id": "970597890524-s3kp8btljfbh2nq33qcb9hh9kb1lkfkl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgg54ggUkKnu4JuaDw5rhl2_FhxQRugLU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970597890524-s3kp8btljfbh2nq33qcb9hh9kb1lkfkl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970597890524:android:04c042cdb43ab89d",
+        "android_client_info": {
+          "package_name": "com.oneconnect.investor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970597890524-89tsh237vkljbv0m6s18o7htd2cbnlh3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oneconnect.investor",
+            "certificate_hash": "c2a612e2c1c6c058f139ab260f5112807326ee17"
+          }
+        },
+        {
+          "client_id": "970597890524-s3kp8btljfbh2nq33qcb9hh9kb1lkfkl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgg54ggUkKnu4JuaDw5rhl2_FhxQRugLU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970597890524-s3kp8btljfbh2nq33qcb9hh9kb1lkfkl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970597890524:android:a43e21556e12ca19",
+        "android_client_info": {
+          "package_name": "com.oneconnect.monitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970597890524-bgn4n2u775undpfcjk27voc729b8dpsc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oneconnect.monitor",
+            "certificate_hash": "c2a612e2c1c6c058f139ab260f5112807326ee17"
+          }
+        },
+        {
+          "client_id": "970597890524-s3kp8btljfbh2nq33qcb9hh9kb1lkfkl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgg54ggUkKnu4JuaDw5rhl2_FhxQRugLU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970597890524-s3kp8btljfbh2nq33qcb9hh9kb1lkfkl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970597890524:android:068c02a16ce68f47",
+        "android_client_info": {
+          "package_name": "com.oneconnect.supplier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970597890524-r727374fbdmfeeu42g355k48hch49ebe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oneconnect.supplier",
+            "certificate_hash": "c2a612e2c1c6c058f139ab260f5112807326ee17"
+          }
+        },
+        {
+          "client_id": "970597890524-s3kp8btljfbh2nq33qcb9hh9kb1lkfkl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgg54ggUkKnu4JuaDw5rhl2_FhxQRugLU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970597890524-s3kp8btljfbh2nq33qcb9hh9kb1lkfkl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970597890524:android:5d892e54ae37ac36",
+        "android_client_info": {
+          "package_name": "com.oneconnect.supplierv3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970597890524-55o5lp8bflle8aoh24ifh5asf9t63vo5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oneconnect.supplierv3",
+            "certificate_hash": "c2a612e2c1c6c058f139ab260f5112807326ee17"
+          }
+        },
+        {
+          "client_id": "970597890524-s3kp8btljfbh2nq33qcb9hh9kb1lkfkl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgg54ggUkKnu4JuaDw5rhl2_FhxQRugLU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970597890524-s3kp8btljfbh2nq33qcb9hh9kb1lkfkl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
